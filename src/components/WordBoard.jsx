@@ -1,6 +1,6 @@
 import Letter from "./Letter";
 
-const WordGuesses = () => {
+const WordBoard = () => {
   return (
     <div className="dark:bg-black dark:text-white p-8 bg-center ">
       <div className="flex">
@@ -49,4 +49,4 @@ const WordGuesses = () => {
   );
 };
 
-export default WordGuesses;
+export default WordBoard;
