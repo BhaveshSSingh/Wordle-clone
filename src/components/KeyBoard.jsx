@@ -45,18 +45,18 @@ const KeyBoard = () => {
     <div className=" pb-5" onKeyDown={handleKeyboard}>
       <div className="flex  flew-row justify-center  m-2 ">
         {keyLine1.map((key) => {
-          return <Key keyVal={key} />;
+          return <Key keyVal={key} key={key} />;
         })}
       </div>
       <div className="flex  flew-row justify-center m-2">
         {keyLine2.map((key) => {
-          return <Key keyVal={key} />;
+          return <Key keyVal={key} key={key} />;
         })}
       </div>
       <div className="flex flew-row justify-center m-2">
         <Key keyVal={"👍"} bigKey />
         {keyLine3.map((key) => {
-          return <Key keyVal={key} />;
+          return <Key keyVal={key} key={key} />;
         })}
         <Key keyVal={"⌫"} bigKey />
       </div>
